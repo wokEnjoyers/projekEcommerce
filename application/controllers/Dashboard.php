@@ -9,5 +9,7 @@ class Dashboard extends CI_Controller
         $this->load->view('backend/template/sidebar');
         $this->load->view('backend/dashboard/view');
         $this->load->view('backend/template/footer');
+        
     }
 }
+?>
